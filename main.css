@@ -1,7 +1,7 @@
-* 		{ padding: 0; margin: 0; color: #FFF; }
+* 		{ padding: 0; margin: 0; color: #FFFFF; }
 *, body	{ font-family: Trebuchet MS, Helvetica, Arial; font-size: 95%; }
 body {
-	background-color:#777;
+	background-color:grey;
 }
 
 #pageWrap 
@@ -24,14 +24,14 @@ div.hoverBtn a {
 	position:relative;
 	z-index:2;
 	display:block;
-	width:100px;
+	width:137px;
 	height:30px;
 	line-height:30px;
 	text-align:center;
 	font-size:1.1em;
 	text-decoration:none;
 	color:#000;
-	background:transparent none repeat-x 0 0 scroll;
+	background:transparent blue repeat-x 0 0 scroll;
 }
 div.hoverBtn div {
 	display:none;
@@ -43,10 +43,19 @@ div.hoverBtn div {
 h1 {
 	font-size:		2.0em;
 	margin:			0.5em 0;
+	color:black;
+
 }
 p {
-	padding-top:	10px;
+	padding-top:	20px;
 	margin:			0.5em 0;
+	color:white;
+	font-size:12px;
+}
+li
+{
+	color:white;
+
 }
 
 .clear	{ clear: both;width:100px; }
