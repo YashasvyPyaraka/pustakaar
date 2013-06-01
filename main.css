@@ -31,7 +31,7 @@ div.hoverBtn a {
 	font-size:1.1em;
 	text-decoration:none;
 	color:#000;
-	background:transparent blue repeat-x 0 0 scroll;
+	background:transparent none repeat-x 0 0 scroll;
 }
 div.hoverBtn div {
 	display:none;
