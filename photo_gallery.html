@@ -1,69 +1,316 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-	<link rel="stylesheet" type="text/css" href="main.css"/>
-	<link rel="stylesheet" href="image-slideshow.css" type="text/css">
-	<script type="text/javascript" src="image-slideshow.js"></script>
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="jquery-color.js"></script>
-	<script type="text/javascript" src="main.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Pustakaar-Home Page</title>
+<!-- CSS for slidesjs.com example -->
+  <link rel="stylesheet" href="css/example.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:1px;
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+    margin-top:px;  
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 5px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 500px
+      }
+    }
+  </style>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+
 </head>
-<div align="left">	
-			<img src="images/logo_pustakaar.png"border="0"width="120" height="50" /><b style="color:red">Spreading the joy of reading - One book at a time</b>
-</div>
+
 <body>
 
-			<a class="hoverBtn" href="index.html">Home</a>
-			<a class="hoverBtn" href="goals_values.html">Goal/Values</a>
-			<a class="hoverBtn" href="team_board.html">Team/Board</a>
-			<a class="hoverBtn" href="volunteer.html">Volunteer</a>
-			<a class="hoverBtn" href="programs_faqs.html">Programs/FAQs</a>			
-			<a class="hoverBtn" href="photo_gallery.html">Photo Gallery</a>
-			<a class="hoverBtn" href="blogs.html">Blogs</a>
-			<a class="hoverBtn" href="donation.html">Donation</a>
-			<a class="hoverBtn" href="contact_us.html">Contact us</a>
-		</div>
-	</div>
-	<div id="dhtmlgoodies_slideshow">
-				<div id="previewPane">
-					<img src="images/image1_big.jpg">
-					<span id="waitMessage">Loading image. Please wait</span>	
-					<div id="largeImageCaption"></div>
-				</div>
-			<div id="galleryContainer">
-				<div id="arrow_left"><img src="images/arrow_left.gif"></div>
-					<div id="arrow_right"><img src="images/arrow_right.gif"></div>
-						<div id="theImages">
-				<!-- Thumbnails -->
-							<a href="#" onclick="showPreview('images/image1_big.jpg','1');return false"><img src="images/image1.jpg"></a>		
-							<a href="#" onclick="showPreview('images/image2_big.jpg','2');return false"><img src="images/image2.jpg"></a>		
-							<a href="#" onclick="showPreview('images/image3_big.jpg','3');return false"><img src="images/image3.jpg"></a>		
-							<a href="#" onclick="showPreview('images/image4_big.jpg','4');return false"><img src="images/image4.jpg"></a>		
-							<a href="#" onclick="showPreview('images/image5_big.jpg','5');return false"><img src="images/image5.jpg"></a>		
-							<a href="#" onclick="showPreview('images/image6_big.jpg','6');return false"><img src="images/image6.jpg"></a>		
-							<a href="#" onclick="showPreview('images/image7_big.jpg','7');return false"><img src="images/image7.jpg"></a>		
-							<a href="#" onclick="showPreview('images/image8_big.jpg','8');return false"><img src="images/image8.jpg"></a>	
-							<!-- End thumbnails -->
-				
-							<!-- Image captions -->	
-							<div class="imageCaption">Image 1</div>
-							<div class="imageCaption">Image 2</div>
-							<div class="imageCaption">Image 3</div>
-							<div class="imageCaption">Image 4</div>
-							<div class="imageCaption">Image 5</div>
-							<div class="imageCaption">Image 6</div>
-							<div class="imageCaption">Image 7</div>
-							<div class="imageCaption">Image 8</div>
-							<!-- End image captions -->
-				
-						<div id="slideEnd"></div>
-					</div>
-				</div>
-			</div>
-	
-</body>
+<div id="container">
+<div id="page_menu">
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="team_board.html">Team/Board</a></li>
+		<li><a href="volunteer.html">Volunteer</a></li>
+		<li><a href="photo_gallery.html">Photo Gallery</a></li>
+		<li><a href="donation.html">Donation</a></li>
+		<li class="last"><a href="contact_us.html">Contact Us</a></li>
+		</ul>
 
+  </div>
+<!-- Start of Page Header -->
+
+	<div id="page_header">
+
+
+		<div class="clearthis">&nbsp;</div>
+<div align="left"><br /><br /><br />
+		<img src="images/logo_pustakaar.png"border="0"width="250" height="85"/><br />
+		<b style="color:darkorange"><font size="3">Spreading the joy of reading - One book at a time</font></b>
+</div>
+	</div>
+	<!-- End of Page Header -->
+	
+<!-- Start of Main Content Area -->
+
+	<div id="main_content">
+<!-- Start of New Item Description -->
+
+		<div id="new_item" class="container">
+			<h2>Photo Gallery</h2>
+			<h2>&nbsp;</h2>
+				<div class="container">
+				    <div id="slides">
+				      <img src="images/children_reading.jpg" width="250px" height="250px" >
+				      <img src="images/kids_reading.jpg" width="250px" height="250px" >
+				      <img src="images/library.jpg" width="250px" height="250px" >
+				      <img src="images/searching_books.jpg" width="250px" height="250px" >
+				      </div>
+			</div>
+
+			<!-- End SlidesJS Required: Start Slides -->
+
+			  <!-- SlidesJS Required: Link to jQuery -->
+			  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+			  <!-- End SlidesJS Required -->
+
+			  <!-- SlidesJS Required: Link to jquery.slides.js -->
+			  <script src="js/jquery.slides.min.js"></script>
+			  <!-- End SlidesJS Required -->
+
+			  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+			  <script>
+			    $(function() {
+			      $('#slides').slidesjs({
+				width: 940,
+				height: 528,
+				play: {
+				  active: true,
+				  auto: true,
+				  interval: 4000,
+				  swap: true
+				}
+			      });
+			    });
+			  </script>
+			  <!-- End SlidesJS Required -->
+	<div id="new_item_image">
+	</div>	  
+
+		  <div class="clearthis">&nbsp;</div>
+		</div>
+
+		<!-- End of New Item Description -->
+
+
+		
+
+
+		<!-- Start of Sub Item Descriptions -->
+
+		<div class="sub_items">
+
+
+				
+
+		</div>
+
+		<!-- End of Sub Item Descriptions -->
+		<!-- Start of New Item Description -->
+
+		<div id="new_item" class="container">
+
+			
+
+	<div id="new_item_image">
+	</div>	  
+
+		  <div class="clearthis">&nbsp;</div>
+		</div>
+
+		<!-- End of New Item Description -->
+
+
+		<div class="h_divider">&nbsp;</div>
+
+
+		<!-- Start of Sub Item Descriptions -->
+
+		<div class="sub_items">
+
+
+				
+
+		</div>
+
+		<!-- End of Sub Item Descriptions -->
+
+  </div>
+	<!-- End of Main Content Area -->
+				<img src="images/kids_reading.jpg" width="700" height="170" alt="Sub Item Name" />
+
+	<div class="clearthis">&nbsp;</div>
+
+
+	<!-- Start of Page Footer -->
+
+	<div id="page_footer">
+	  <div id="powered_by">Copyright &copy; 2013</div>
+
+	  <div class="clearthis">&nbsp;</div>
+	</div>
+
+	<!-- End of Page Footer -->
+
+</div>
+
+</body>
 </html>
