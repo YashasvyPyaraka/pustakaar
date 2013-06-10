@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>Pustakaar-Home Page</title>
+
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+</head>
+
+<body>
+
+<div id="container">
+<div id="page_menu">
+		<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Goals/Values</a></li>
+		<li><a href="#">Team/Board</a></li>
+		<li><a href="#">Volunteer</a></li>
+		<li><a href="#">Programs/FAQs</a></li>
+		<li><a href="#">Photo Gallery</a></li>
+		<li><a href="#">Blogs</a></li>
+		<li><a href="#">Donation</a></li>
+		<li class="last"><a href="#">Contact Us</a></li>
+		</ul>
+
+  </div>
+<!-- Start of Page Header -->
+
+	<div id="page_header">
+
+		<div id="page_heading">
+		<h1><a href="http://www.pustakaar.org">Pustakaar</a></h1>
+		</div>
+
+		<div class="clearthis">&nbsp;</div>
+
+	</div>
+
+	<!-- End of Page Header -->
+
+
+	<!-- Start of Page Menu -->
+
+	
+
+<!-- End of Page Menu -->
+
+
+	<!-- Start of Left Sidebar -->
+
+	<div id="left_sidebar">
+
+
+		<!-- Start of Newsletter Signup Form -->
+	  <!-- End of Newsletter Signup Form -->
+
+	  <!-- Start of Categories Box -->
+
+  <div id="categories">
+			<div id="categories_header">
+			<h2>Services</h2>
+			</div>
+
+			<ul>
+				<li><a href="http://www.maagraphics.com/illustrations/illustration-services.htm">Illustration</a></li>
+				<li><a href="http://www.maagraphics.com/logo-designs/logo-design.htm">Logo Design</a></li>
+				<li><a href="http://www.maagraphics.com/web-designs/web-design-services.htm">Web Design</a></li>
+				<li><a href="http://www.maagraphics.com/2d-3d-designs/2d-animation.htm">2d/3d Design</a></li>
+				<li><a href="http://www.maagraphics.com/marketing/website-content-writing.htm">Web Content Writting</a></li>
+				<li><a href="http://www.maagraphics.com/print-designs/print-design-services.htm">Print Design</a></li>
+				<li><a href="http://www.maagraphics.com/print-designs/brochures-designs.htm">Brouchures Design</a></li>
+				<li><a href="http://www.maagraphics.com/logo-designs/logo-design.htm">Identity Branding</a></li>
+				<li class="last"><a href="http://www.maagraphics.com/logo-designs/stationary-design.htm">Stationary Design</a></li>
+		    		<li><a href="http://www.maagraphics.com/print-designs/press-advert-designs.htm" >Advertising Design</a></li>
+				<li><a href="http://www.maagraphics.com/print-designs/flyers-designs.htm" >Flyer Design</a></li>
+				<li><a href="http://www.maagraphics.com/print-designs/presentation-folders-designs-services.htm" >Folders Design</a></li>
+				<li><a href="http://www.maagraphics.com/logo-designs/stationary-design.htm">Stationary Design</a></li>
+	   			<li><a href="http://www.maagraphics.com/illustrations/book-illustrations.htm" >Book Illustration</a></li>
+				<li><a href="http://www.maagraphics.com/illustrations/fashion-illustrations.htm" >Fashion Illustration</a></li>
+				<li><a href="http://www.maagraphics.com/illustrations/digital-illustrations.htm" >Digital Illustration</a></li>
+				<li><a href="http://www.maagraphics.com/2d-3d-designs/2d-animation.htm">Cartoon Illustration</a></li>
+				<li><a href="http://www.maagraphics.com/illustrations/portrait-illustrations.htm" >Portrait Illustration</a></li>
+			</ul>
+
+			<div class="clearthis">&nbsp;</div>
+		</div>
+
+		<!-- End of Categories Box -->
+
+
+		<!-- Start of Special Offer Box -->
+		<div id="specialoffer">
+          <div id="specialoffer_text"> <img src="images/pho01.jpg" alt="" /> </div>
+		  <div class="clearthis">&nbsp;</div>
+	  </div>
+		<!-- End of Special Offer Box -->
+    </div>
+<!-- End of Left Sidebar -->
+
+
+	<!-- Start of Main Content Area -->
+
+	<div id="main_content">
+
+		<!-- Start of New Item Description -->
+
+		<div id="new_item">
+
+			<div id="new_item_header">
+			<h1>Welcome to Pustakaar!</h1>
+			<h2>&nbsp;</h2>
+		  </div>
+
+			<div id="new_item_image"><img src="images/children_reading.jpg" width="250px" height="250px" alt="" /></div>
+
+		  <div id="new_item_text">
+<p><a href="#">Maagraphics</a> is one of the leading  providers of most of the website services such as website design &amp;  development, Internet marketing services and consulting services. Many  clients from all around the world are happy on the way we designed their  websites, as the website is the mediator for you to communicate with its  visitors. Most of our services are backed by years of experience, quality work,  TAT deliveries and world class support. &nbsp;We have a talented team, with world class  talent and efficiency to groom us with more creativity and outstanding quality.  Our clients associate with us to definer their business strategies and to  extract innovative ideas to build their online businesses. Our other  services include <a href="http://www.maagraphics.com/logo-designs/logo-design.htm">Logo Design</a>, Book Illustrations, <a href="http://www.maagraphics.com/print-designs/brochures-designs.htm">Brochures Design</a>, <a href="http://www.maagraphics.com/illustrations/illustration-services.htm">Illustrations</a><strong>,</strong> <a href="http://www.maagraphics.com/web-designs/web-design-services.htm">Website Development</a>,&nbsp;Advertising Designs, Banner  Designs, <a href="http://www.maagraphics.com/print-designs/flyers-designs.htm">Flyers Designs</a>, Invitations Design<strong>, </strong>Posters Designs, and Signage Designs among other services.</p>
+				
+		  </div>
+
+		  <div id="new_item_link">
+			<a href="#">.....Read More</a>			</div>
+
+		  <div class="clearthis">&nbsp;</div>
+		</div>
+
+		<!-- End of New Item Description -->
+
+
+		<div class="h_divider">&nbsp;</div>
+
+
+		<!-- Start of Sub Item Descriptions -->
+
+		<div class="sub_items">
+
+
+			<!-- Start Left Sub Item -->
+
+			<div class="sub_left">
+
+				<div class="sub_items_header">
+				<h1>Web Design</h1>
+				<h2>&nbsp;</h2>
+			  </div>
+
+				<div class="sub_items_image"><img src="images/item_printer.jpg" alt="" width="167" height="164" /></div>
+
+<div class="sub_items_text">
+					<p><a href="http://www.maagraphics.com/">Maagraphics</a> provide different types of websites such as Brochure &nbsp;&nbsp;&nbsp; Website, <a href="http://www.maagraphics.com/web-designs/e-commerce-website-design.htm">E-&nbsp;&nbsp;&nbsp;&nbsp;commerce website</a>, <a href="http://www.maagraphics.com/web-designs/flash-website-development.htm">Flash website</a> and <a href="http://www.maagraphics.com/web-designs/CMS-website-development.htm">Contact management System (CMS)</a>  and such other areas where you need a strong and effective presence in the  internet market. The websites created by maagraphics reflect the quality and  philosophy of your company to assist you in converting browsers into buyers.</p>
+
+
+<p>&nbsp;</p>
+			  </div>
+
+		  <div class="sub_items_cartinfo">
+		    <div class="clearthis">&nbsp;</div>
+				</div>
+
+				<div class="clearthis">&nbsp;</div>
+
+			</div>
+
+			<!-- End of Left Sub Item -->
+
+
+
+			<!-- Start Right Sub Item -->
+
+			<div class="sub_right">
+
+				<div class="sub_items_header">
+				<h1>Print Design</h1>
+				<h2>&nbsp;</h2>
+			  </div>
+
+				<div class="sub_items_image">
+				<img src="images/item_scanner.jpg" width="175" height="170" alt="Sub Item Name" />
+				</div>
+
+				<div class="sub_items_text">
+<p><a href="http://www.maagraphics.com/">Maagraphics</a> provide different print design services such as Advertising  Designs, Banner Designs, <a href="http://www.maagraphics.com/print-designs/brochures-designs.htm">Brochures Designs</a>, Direct Mail Design, Flyers Designs,  <a href="http://www.maagraphics.com/print-designs/presentation-folders-designs-services.htm">Folders Designs</a>, Image Clipping Paths, Invitations Design, Menu Design, News  Letter Design, Packaging Design, Posters Designs, and <a href="#">Signage Designs</a>. Our  designers are serving industries like Films and Cartoons, Advertising firms,  and other commercial companies.</p>
+
+</div>
+
+				<div class="sub_items_cartinfo">
+				  <div class="clearthis">&nbsp;</div>
+				</div>
+				<div class="clearthis"></div>
+			</div>
+
+			<!-- End of Right Sub Item -->
+			<div class="clearthis"></div>
+
+		</div>
+
+		<!-- End of Sub Item Descriptions -->
+
+  </div>
+	<!-- End of Main Content Area -->
+				<img src="images/kids_reading.jpg" width="700" height="170" alt="Sub Item Name" />
+
+	<div class="clearthis">&nbsp;</div>
+
+
+	<!-- Start of Page Footer -->
+
+	<div id="page_footer">
+	  <div id="powered_by">Copyright &copy; 2013</div>
+
+	  <div class="clearthis">&nbsp;</div>
+	</div>
+
+	<!-- End of Page Footer -->
+
+</div>
+
+</body>
+</html>
